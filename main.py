@@ -129,4 +129,4 @@ if __name__ == '__main__':
         with conn.cursor() as cur:
             create_db(conn, cur)
 
-all_clients(cur)
+            all_clients(cur)
